@@ -5,3 +5,36 @@
     font-family: 'Work Sans', sans-serif;
    
 }
+
+.nav-container{
+    display:flex;
+    justify-content: space-around;
+    
+
+}
+
+
+.navigation-left img{
+    float:left;
+}
+.navigation-left h2{
+   
+   float:right;
+    
+   
+}
+
+.navigation-right >ul{
+    
+    display:flex;
+}
+
+.navigation-right li{
+    list-style: none;
+}
+
+.navigation-right a{
+    text-decoration: none;
+
+    padding:15px;
+}
