@@ -360,9 +360,69 @@ text-align: center;
 
 
 
+/* image-collage-section-start */
+
+.collage-section-container{
+
+    display: flex;
+}
+
+.collage-texts{
+    padding: 100px 350px;
+    margin-left: 20px;
+   
+}
+
+
+.collage-texts h2{
+    text-align: left;
+font-family: Work Sans;
+font-size: 48px;
+font-style: normal;
+font-weight: 700;
+line-height: 60px; /* 125% */
+
+
+}
+
+
+.this-2-color{
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+background-clip: text;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+}
+
+
+.collage-texts p{
+    color: #534C64;
+text-align: left;
+font-family: Work Sans;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: 30px; /* 166.667% */
+}
 
 
 
+
+.collage-images{
+    margin-left: -220px;
+}
+
+
+
+
+.img-2{
+
+    position: relative;
+    top:-250px;
+    right: 150px;
+}
+
+
+/* image-collage-section-end */
 
 
 
