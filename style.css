@@ -6,28 +6,63 @@
    
 }
 
+/* navigation-section-start */
+
 .nav-container{
     display:flex;
     justify-content: space-around;
+  
     
-
 }
 
+.navigation-left{
+    padding-top: 50px;
+    display: flex;
+    justify-content: space-between;
+}
 
 .navigation-left img{
-    float:left;
-}
-.navigation-left h2{
-   
-   float:right;
     
+    padding-right: 20px;
+    width: 100%;
+    height: 60px;
    
+
+
 }
 
+
+
+.navigation-title{
+    color: #0B0223;
+
+    font-size: 2.8rem;
+
+
+}
+
+#navigation-title-pink{
+   color: #FF42A5;
+}
+
+/*
 .navigation-right >ul{
     
     display:flex;
+    padding-top: 60px;
+    
 }
+*/
+
+
+.navigation-right{
+
+    padding-top: 50px;
+}
+
+
+
+
 
 .navigation-right li{
     list-style: none;
@@ -36,5 +71,400 @@
 .navigation-right a{
     text-decoration: none;
 
-    padding:15px;
+    padding:18px;
+    color: #3C354F;
+    font-family: Work Sans;
+    font-size: 1.5rem;
+
+
 }
+
+.navigation-right >ul{
+    display: flex;
+    
+    justify-content: center;
+    align-items: center;
+}
+
+.non-gray-container{
+    display: flex;
+}
+
+ .gray-container{
+  
+    background-color: rgba(11, 2, 35, 0.10);
+   display: flex;
+   padding:20px;
+   border-radius: 8px;
+ 
+}
+
+ .fa-youtube{
+color: #ed2121;
+font-size:30px;
+
+ }
+
+ .fa-tiktok{
+   color: black;
+ }
+
+
+ /* navigation-section-end */
+
+ 
+
+
+
+
+
+ /* Hero-Area-Start */
+
+ .hero-container{
+
+    display: flex;
+    justify-content: space-around;
+    background-image: url(images/Group\ 14.png);
+    background-repeat: no-repeat;
+
+    padding: 130px 130px;
+
+ }
+
+ .hero-texts-and-buttons{
+    padding:200px 0;
+   
+    
+   
+    
+ }
+
+ .hero-texts-and-buttons h2{
+
+    color: #0B0223;
+text-align: center;
+
+font-size: 48px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+text-transform: uppercase;
+
+
+margin-top: -150px;
+
+
+ }
+
+
+
+ .hero-texts-and-buttons h1{
+
+    text-align: center;
+font-family: Work Sans;
+font-size: 95px;
+font-style: normal;
+font-weight: 800;
+line-height: normal;
+text-transform: uppercase;
+
+background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+background-clip: text;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+
+
+ }
+
+
+#play{
+    width:25px;
+   
+}
+
+#download{
+    width: 23px;
+}
+
+
+#people{
+    width:24px;
+
+}
+
+.hero-nested-area{
+    padding: 10px;
+    
+}
+.hero-nested-area img{
+  float: left;
+  margin-right: 10px;
+  margin-bottom: 5px;
+
+}
+
+.hero-nested-area img {
+
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.hero-nested-area p{
+
+    margin-bottom: 15px;
+    color: #534C64;
+text-align: left;
+
+font-size: 17px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+text-transform: lowercase;
+
+padding-left: 10px;
+margin-left: 10px;
+}
+
+
+.hero-texts-and-buttons button{
+    display: inline-flex;
+padding: 21px 40px;
+align-items: flex-start;
+gap: 10px;
+
+border-radius: 48px;
+background: var(--linear, linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%));
+
+color: #FFF;
+font-family: Work Sans;
+font-size: 20px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+text-transform: uppercase;
+border: none;
+
+
+}
+
+#btn-skyblue{
+   
+    background: #4EC5F7;
+}
+
+.hero-image img{
+   margin-top: -100px;
+
+}
+
+
+
+
+
+
+
+
+
+
+ /* ---------Responsive- media-query- area- start------------------*/ 
+
+
+ 
+ 
+ /* For-small device / mobile phones */
+
+
+
+/* navigation-area-start*/
+
+
+
+@media screen and (max-width:576px ){
+
+    
+    
+    .nav-container{
+        display:flex;
+        flex-direction: column;
+      
+        
+    }
+   
+    
+    .navigation-left img{
+        width: 15%;
+        padding-left: 80px;
+    }
+
+    
+    
+    .navigation-title{
+        
+        font-size: 2.5rem;
+        
+        padding-right: 500px;
+    
+    
+    }
+    
+
+    
+    .navigation-right a{
+        
+    
+        font-size: 1.5rem;
+        text-align: center;
+        padding: 20px;
+        margin-left: 18px;
+       
+           
+    }
+    
+    .navigation-right >ul{
+        
+
+        display: flex;
+        flex-wrap: wrap;
+       
+       
+    }
+    
+
+    .non-gray-container{
+      
+      
+        width: 100%;
+        
+        padding: 0px 10px;
+    }
+    
+     .gray-container{
+      
+        background-color: rgba(11, 2, 35, 0.10);
+      
+        margin-top: 30px;
+        margin: 50px 20px;
+        display: flex;
+        justify-content: space-evenly;
+        max-width:70%;
+
+        margin-right: 50px;
+     
+     
+    }
+
+    .gray-container>li{
+       
+      
+      
+    }
+
+    .gray-container li, a{
+       
+        
+    }
+    
+     .fa-youtube{
+    color: #ed2121;
+    font-size:30px;
+    
+     }
+    
+     .fa-tiktok{
+       color: black;
+     }
+    
+    
+   
+
+    /* For-small device / mobile phones */
+     /* navigation area end */
+    
+}
+
+ 
+
+
+
+/* For Medium devices / tablets */ 
+
+/* Navigation area start */
+@media screen and (min-width:576px ) and (max-width:968px ){
+
+
+
+    .nav-container{
+        display:flex;
+        flex-direction: column;
+      
+        
+    }
+   
+    
+    .navigation-left img{
+        width: 15%;
+        padding-left: 60px;
+    }
+
+    
+    
+    .navigation-title{
+        
+        font-size: 2.5rem;
+        
+        padding-right: 500px;
+    
+    
+    }
+    
+
+    
+    .navigation-right a{
+        
+    
+        font-size: 1.5rem;
+        text-align: center;
+        padding: 20px;
+        margin-left: 18px;
+       
+           
+    }
+    
+    .navigation-right >ul{
+        
+
+        display: flex;
+        flex-wrap: wrap;
+       
+       
+    }
+    
+
+    .non-gray-container{
+      
+      
+        width: 100%;
+        
+        padding: 0px 10px;
+    }
+    
+     .gray-container{
+      
+        background-color: rgba(11, 2, 35, 0.10);
+      
+        margin-top: 40px;
+        margin-right: 340px;
+      
+
+        
+        
+     
+    }
+
+
+}
+
+/* For Medium devices / tablets */ 
+
+/* Navigation area end */
