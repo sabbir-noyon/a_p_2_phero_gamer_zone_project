@@ -657,7 +657,8 @@ line-height: 30px; /* 166.667% */
 
 
 .footer-section-container{
-   
+    background-color: #0B0223;
+    padding: 50px;
 
 }
 
@@ -680,6 +681,7 @@ line-height: 30px; /* 166.667% */
     font-style: normal;
     font-weight: 700;
     line-height: normal;
+    color: #FFF;
   
 }
 
@@ -707,7 +709,7 @@ line-height: 30px; /* 166.667% */
 
 
 
-    color: black;
+    color: #FFF;
 text-align: center;
 font-family: Work Sans;
 font-size: 18px;
@@ -735,6 +737,7 @@ line-height: normal;
 
 .fa-facebook{
 color: #1877F2;
+color:white;
 font-size: 30px;
 }
 
@@ -743,6 +746,47 @@ font-size: 30px;
  color:#1DA1F2;
  font-size: 30px;
 }
+
+
+.footer-privacy-policies ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.footer-privacy-policies li{
+    list-style-type: none;
+    padding: 20px;
+}
+
+
+.footer-privacy-policies a{
+    text-decoration: none;
+
+    color: rgba(255, 255, 255, 0.60);
+text-align: center;
+font-family: Work Sans;
+font-size: 16px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+}
+
+
+
+.copyright-class{
+    text-align: center;
+    padding: 30px 0px;
+    font-size: 16px;
+    color: rgba(255, 255, 255, 0.60);
+}
+
+
+.fa-tiktok{
+    
+}
+
 
 
 
