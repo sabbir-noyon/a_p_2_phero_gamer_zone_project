@@ -649,24 +649,100 @@ line-height: 30px; /* 166.667% */
 
 
 
+/* Footer Section Start */
 
 
 
+/* Footer Section End */
+
+
+.footer-section-container{
+   
+
+}
+
+.footer-main-container{
+   
+}
+
+.footer-title-and-image-div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.footer-title-and-image-div h2{
+    padding: 15px;
+    text-align: center;
+    font-family: Work Sans;
+    font-size: 45px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+  
+}
+
+
+#footer-title-pink{
+    color: #FF42A5;
+}
+
+
+.footer-navigation ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-navigation li{
+    list-style: none;
+    padding-top: 20px;
+}
+
+.footer-navigation a{
+    text-decoration: none;
+    padding: 20px;
+    
 
 
 
+    color: black;
+text-align: center;
+font-family: Work Sans;
+font-size: 18px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+}
 
 
 
+.footer-social-icons ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 20px;
+    
+}
 
 
+.footer-social-icons li{
+    list-style-type: none;
+    padding: 20px;
+    font-size: 25px;
+}
+
+.fa-facebook{
+color: #1877F2;
+font-size: 30px;
+}
 
 
-
-
-
-
-
+.fa-twitter{
+ color:#1DA1F2;
+ font-size: 30px;
+}
 
 
 
